@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> html-теги </title>
+
+
+</head>
+
+<body>
+
+	<!--важный форм для передачи файлов-->
+	<form action="#" method="post" enctype="multipart/form-data"></form>
+	<!---->
+	<p>имя</p>
+	<div><input placeholder=" ввести" type="text" name="username" value=""> </div>
+
+	<p>пароль</p>
+	<div><input type="password" name="userpass" value=""></div>
+
+	<div>
+		<p> <input checked type="radio" name="beer" value="lager"> светдое </p>
+		<p> <input type="radio" name="beer" value="вфкл"> темное </p>
+	</div>
+
+	<br>
+
+	<div>
+		<p> <input type="radio" name="beer2" value="lager"> светдое </p>
+		<p> <input checked type="radio" name="beer2" value="вфкл"> темное </p>
+	</div>
+
+	<br>
+
+	<div>
+		<p><input type="checkbox" name="car1" value="yes"> наличие авто </p>
+		<p><input checked type="checkbox" name="car2" value="yes"> наличие авто </p>
+		<p><input type="checkbox" name="car3" value="yes"> наличие авто </p>
+		<p><input type="checkbox" name="car4" value="yes"> наличие авто </p>
+	</div>
+
+	<br>
+
+	<!--	отправка файла-->
+	<div>
+		<p><input type="file" name="foto"> </p>
+	</div>
+
+	<br>
+
+	<textarea placeholder="подпись" name="text"></textarea>
+
+	<br>
+	<br>
+
+	<!--выпадающий список--> <!-- select multiple-->
+	<div>
+		<select name="список" id="">
+			<option value="read">Красный</option>
+			<option value="blue">голубой</option>
+			<option selected value="yellow">желтый </option>
+			<option value="greey">серый</option>
+		</select>
+	</div>
+
+	<br>
+
+	<div>
+		<button type="submit"> отправить</button>
+		<button type="reset"> отчистить</button>
+	</div>
+
+	<br>
+
+	<!--закрытое поле   disabled    имя поля placeholder-->
+	<input disabled placeholder=" закрытое поле" type="text">
+
+	<br>
+
+
+
+
+	<p>
+		<input tabindex1 type="text" placeholder="1 tab">
+		<input tabindex1 type="text" placeholder="2">
+		<input tabindex1 type="text" placeholder="3">
+		<input tabindex1 type="text" placeholder="4">
+		<input tabindex1 type="text" placeholder="5">
+	</p>
+
+
+</body>
+
+</html>
